@@ -1,0 +1,82 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["What is your age", "age"],
+    "bot_response": "I am an AI so My age is depends on my master age and Salik is 21 years old!",
+    "required_words": ["age"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "Your owner age"],
+    "bot_response": " Salik is 21 years old!",
+    "required_words": ["owner"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": [ "learn","code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [" who","are", "you"],
+    "bot_response": "I'm Duldul the assistant of Salik!",
+    "required_words": ["who","are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "what","is","your","name"],
+    "bot_response": "I'm Duldul!",
+    "required_words": ["what","is","your","name"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "who","is","your","owner"],
+    "bot_response": "My Owner name is SALIK!",
+    "required_words": ["who","is","your","owner"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "what","can","you","do","for","me"],
+    "bot_response": "I can Assist You",
+    "required_words": ["what","can","you","do","for","me"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [ "who","is","salik"],
+    "bot_response": "My Owner ,creator and a good friend! ",
+    "required_words": ["who","is","salik"]
+  }
+
+
+]  
